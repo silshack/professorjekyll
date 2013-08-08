@@ -108,8 +108,8 @@ ul.posts span {
 }
 
 .site .footer .contact {
-  float: left;
   margin-right: 3em;
+  text-align: center;
 }
 
 .site .footer .contact a {
@@ -141,6 +141,11 @@ ul.posts span {
 
 .post ul, .post ol {
   margin-left: 1.35em;
+}
+
+.end {
+  margin-top: 1em;
+  font-style: italic;
 }
 
 .post code {

@@ -1,2 +1,20 @@
-name: Your New Jekyll Site
+name: Professor Jekyll Edits His config.yml
 pygments: true
+
+authors:
+  einstein:
+      name: Albert Einstein
+      prof: true
+      gravatar: 
+      website: http://www.relativity.com
+      github: 
+      twitter:
+      about:  E=mc^2
+  wittgenstein:
+      name: Ludwig Wittgenstein
+      prof: true
+      gravatar:
+      website: http://www.tractatus.com
+      github:
+      twitter:
+      about:  E=mc^2
