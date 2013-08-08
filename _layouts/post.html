@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% assign author = site.authors[page.author] %}
+
+<h2>{{ page.title }}</h2>
+
+<p>
+by {{ author.name }}
+</p> <!-- /.byline -->
+
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+<div class="post">
+{{ content }}
+</div>
+
+<div class="end">
+	Find {{ author.name }} on <a href="http://twitter.com/{{author.twitter}}">Twitter</a>, <a href="http://github.com/{{author.github}}">Github</a>, and <a href="{{web}}">on the web</a>.
+</div>
