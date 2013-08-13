@@ -1,6 +1,8 @@
 name: Professor Jekyll Edits His config.yml
 pygments: true
 
+url:  http://silshack.github.io/professorjekyll
+
 authors:
   einstein:
       name: Albert Einstein
