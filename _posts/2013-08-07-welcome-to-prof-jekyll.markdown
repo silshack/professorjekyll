@@ -8,7 +8,7 @@ author: einstein
 
 ## Professor Jekyll Wants You to Learn
 
-Jekyll is a great bloggin framework for hackers, but it's also the best way to learn git, Github, and collaboration.  We created Professor Jekyll as a foundational technology for teaching the practical and social aspects of coding.
+Jekyll is a great blogging framework for hackers, but it's also the best way to learn git, Github, and collaboration.  We created Professor Jekyll as a foundational technology for teaching the practical and social aspects of coding.
 
 ## Professor Jekyll Knows Who You Are
 
