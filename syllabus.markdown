@@ -3,7 +3,8 @@ layout: default
 title: "Syllabus"
 ---
 
-## {{ site.course.title }}
+## Syllabus
+### {{ site.course.number }}: {{ site.course.title }}
 Instructor: {{ site.course.instructor }}
 
 Insert your markdown syllabus here.
