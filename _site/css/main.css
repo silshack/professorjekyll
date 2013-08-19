@@ -63,9 +63,14 @@ ul.posts span {
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
+  width: 52em;
   margin: 3em auto 2em;
   line-height: 1.5em;
+}
+
+.site .header {
+  border-bottom: 4px solid #eee;
+  margin-bottom: 1em;
 }
 
 .site .header a {
@@ -75,7 +80,7 @@ ul.posts span {
 
 .site .header h1.title {
   display: inline-block;
-  margin-bottom: 2em;
+  margin-bottom: 0em;
 }
 
 .site .header h1.title a {
