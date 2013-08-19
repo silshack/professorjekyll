@@ -25,3 +25,11 @@ authors:
       github:
       twitter:
       about:  Ludwig Wittgenstein discovered that the meaning of E=mc^2 is its use.  
+  jdoe:
+      name: John Doe
+      prof: false
+      about: John Doe gets very strange test emails all the time.
+  squw:
+      name: Suzie Q
+      prof: false
+      about: Suzie Q once dated John Fogerty.

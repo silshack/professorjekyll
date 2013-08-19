@@ -71,6 +71,7 @@ ul.posts span {
 .site .header {
   border-bottom: 4px solid #eee;
   margin-bottom: 1em;
+  text-align: center;
 }
 
 .site .header a {

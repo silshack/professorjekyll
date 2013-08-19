@@ -12,13 +12,16 @@ title: "People"
   {% if thisauthor.prof == true %}
 #### {{ thisauthor.name }}
 {{ thisauthor.about }}
+
+<ul class="posts">
     {% for p in site.posts do %}
       {% if p.author == adata %}
-* [{{ p.title }}]({{ site.url }}{{p.url}})
+<li><span>=>  <a href="{{ site.url }}{{p.url}}">{{p.title}}</a> - {{ p.date | date_to_string }}</span></li>
       {% endif %}
     {% endfor %}
+</ul>
+
   {% endif %}
-<br/>
 {% endfor %}
 
 ### {{ site.course.title }} Participants
