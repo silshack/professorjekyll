@@ -19,7 +19,12 @@
           <div class="site">
             <div class="header">
               <h1 class="title"><a href="{{ site.url }}">{{ site.name }}</a></h1>
-              <a class="extra" href="{{ site.url }}">home</a>
+              <p>
+              <a class="extra" href="{{ site.url }}syllabus.html">syllabus</a>
+              <a class="extra" href="{{ site.url }}schedule.html">schedule</a>
+              <a class="extra" href="{{ site.url }}assignments.html">assignments</a>
+              <a class="extra" href="{{ site.url }}people.html">people</a>
+              </p>
             </div>
 
                 {{ content }}
@@ -27,7 +32,7 @@
             <div class="footer">
               <div class="contact">
                 <p>
-                  Jekyll 101
+                  {{ site.course.number }}
                 </p>
                 <p>
                   Another <a href="http://github.com/silshack/professorjekyll">silshack</a> by  <a href="http://twitter.com/hauspoor/">@hauspoor</a> & friends<br />

@@ -1,8 +1,13 @@
-name: Professor Jekyll - Teach git & Github using git & Github
+name: Professor Jekyll Teaches You to Blog Like a Hacker
 pygments: true
 
 url: http://silshack.github.io/professorjekyll/
 
+course:
+  title: Intro to Hacking
+  number: Jekyll 101
+  instructor: Prof. Jekyll
+  
 authors:
   einstein:
       name: Albert Einstein
@@ -11,7 +16,7 @@ authors:
       website: http://www.relativity.com
       github: 
       twitter:
-      about:  E=mc^2
+      about:  Albert Einstein discovered that E=mc^2.  
   wittgenstein:
       name: Ludwig Wittgenstein
       prof: true
@@ -19,4 +24,4 @@ authors:
       website: http://www.tractatus.com
       github:
       twitter:
-      about:  E=mc^2
+      about:  Ludwig Wittgenstein discovered that the meaning of E=mc^2 is its use.  
