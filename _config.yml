@@ -25,6 +25,11 @@ authors:
       github:
       twitter:
       about:  Ludwig Wittgenstein discovered that the meaning of E=mc^2 is its use.  
+  mccarthy:
+      name: John McCarthy
+      prof: true
+      website: http://common-lisp.net/
+      about: John McCarthy invented LISP.  Use it.  
   jdoe:
       name: John Doe
       prof: false
