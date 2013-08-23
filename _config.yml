@@ -1,7 +1,7 @@
 name: Professor Jekyll Teaches You to Blog Like a Hacker
 pygments: true
 
-url: http://silshack.github.io/professorjekyll/
+baseurl: /professorjekyll
 
 course:
   title: Intro to Hacking
