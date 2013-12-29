@@ -6,7 +6,7 @@ Professor Jekyll loves to listen to tunes while he codes.  He also welcomes cont
 
 ## Coding tunes websites
 
-* [Soundtrack.io](http://soundtrack.io) - cool site by guest speaker Eric Martindale that's [also on Github](https://github.com/martindale/soundtrack.io).  Lots of dubstep but if you don't like it you can just deploy your own :)
+* [Soundtrack.io](http://soundtrack.io) - [Open Source project](https://github.com/martindale/soundtrack.io) for collaborative DJing by [@martindale](http://github.com/martindale).
 * [codebass radio](http://codebassradio.net/) -  This one plays rock type music with words. 
 
 <br/>
