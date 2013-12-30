@@ -11,7 +11,7 @@ Any post that has "assignment" as a category will appear here:
 
 {% assign assignments = site.categories.assignment %}
 {% for post in assignments %}
-    <li><a href=" {{ site.baseurl }}{{ post.url }} "> {{ post.title }} </a> &raquo; <span>Due: {{ post.date | date: "%a, %b %d, %y" }} </span> </li>
+    <li><a href=" {{ site.baseurl }}{{ post.url }} "> {{ post.title }} </a> &raquo; <span>Due: {{ post.date | date: "%a, %b %d, %y" }} at {{ post.date | date: "%I:%M %p" }} </span> </li>
 
 {% endfor %}
 
