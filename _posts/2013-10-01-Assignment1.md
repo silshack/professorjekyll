@@ -1,7 +1,7 @@
 ---
 layout: post
 author: einstein
-duedate: 2014-04-20
+date: 2013-10-01
 categories: assignment
 title: Assignment 1
 ---
