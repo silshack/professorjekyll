@@ -12,7 +12,15 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
         <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" >
-      
+        
+        {% if site.python == true %}
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script> 
+        <script src="http://www.skulpt.org/static/skulpt.min.js" type="text/javascript"></script> 
+        <script src="http://www.skulpt.org/static/skulpt-stdlib.js" type="text/javascript"></script> 
+         
+        <script src="{{ site.baseurl}}/js/skulpt-basic.js" type="text/javascript"></script>
+        {% endif %}
+
     </head>
     <body>
         <!-- Ribbon -->
@@ -29,6 +37,9 @@
               <a class="extra" href="{{ site.baseurl }}/people.html">people</a>
               <a class="extra" href="{{ site.baseurl }}/feedback.html">feedback</a>
               <a class="extra" href="{{ site.baseurl }}/music.html">music</a>
+              {% if site.python == true %}
+              <a class="extra" href="{{ site.baseurl }}/console.html">console</a>
+              {% endif %}
               </p>
             </div>
 
