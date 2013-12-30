@@ -3,6 +3,8 @@ pygments: true
 
 baseurl: /professorjekyll
 
+python: false
+
 course:
   title: Intro to Hacking
   number: Jekyll 101
